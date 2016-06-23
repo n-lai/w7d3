@@ -1,0 +1,25 @@
+h1 {
+  display: block;
+  text-align: center;
+}
+
+div.note {
+  line-height: 200px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  width: 100px;
+  height: 200px;
+  background-color: dodgerblue;
+  text-align: center;
+  display: inline-block;
+
+}
+
+div.note.pressed {
+  background-color: aquamarine;
+}
+
+ div {
+   display: flex;
+   justify-content: center;
+ }
